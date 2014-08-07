@@ -1,0 +1,16 @@
+a{
+	text-decoration: none;
+}
+#wrapper{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background: orange;
+}
+li{
+	list-style-type: none;
+}
+#logo{
+	text-align: center;
+	margin: 0;
+}

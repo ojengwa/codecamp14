@@ -1,3 +1,8 @@
+body{
+	background-color: #ffffff;
+	color: #999;
+	font-family: 'Open Sans', sans-serif;
+}
 a{
 	text-decoration: none;
 }
@@ -5,7 +10,6 @@ a{
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: orange;
 }
 li{
 	list-style-type: none;
@@ -13,4 +17,90 @@ li{
 #logo{
 	text-align: center;
 	margin: 0;
+}
+a{
+	color: #6ab47b;
+}
+header{
+	margin: 0px 0px 30px 0px;
+	padding: 5px 0 0 0;
+	background: #6ab47b;
+	border-color: #599a68;
+	width: 100%;
+}
+h1, h2{
+	color: #ffffff;
+}
+nav{
+	background: #599a68;
+	text-align: center;
+}
+nav a, nav a:visited{
+	color: #ffffff;
+}
+nav a.selected, nav a:hover{
+	color: #32673f;
+}
+nav ul{
+	margin: 0 10px;
+	padding: 0;
+}
+nav li{
+	display: inline-block;
+}
+nav a{
+	font-weight: 800;
+	padding: 50px 10px;
+}
+h1{
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-style: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+h2{
+	font-size: ;
+}
+footer{
+	clear: both;
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+}
+img {
+	max-width: 100%
+}
+#gallery{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#gallery li{
+	float: left;
+	width: 45%;
+	margin:  2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+#gallery li a p{
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75%em;
+	color: #bdc3c7;
+}
+.social-icon{
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+.profile-photo{
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+h3{
+	margin: 0 0 1em 0;
 }

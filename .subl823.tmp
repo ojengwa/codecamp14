@@ -7,8 +7,6 @@
   <link href='css/normalize.css' rel='stylesheet' />
   <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans' rel='stylesheet' type='text/css'>
   <link href='css/main.css' rel='stylesheet' />
-  <link href='css/responsive.css' rel='stylesheet' />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -22,8 +20,8 @@
     <nav>
       <ul>
         <li><a href='index.html'>Portfolio</a></li>
-        <li><a href='about.html' class="selected">About</a></li>
-        <li><a href='contact.html'>Contact</a></li>
+        <li><a href='about.html'>About</a></li>
+        <li><a href='contact.html' class="selected">Contact</a></li>
       </ul>
     </nav>
   </header>
